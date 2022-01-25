@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",                                
+    "module": "commonjs",                           
+    "lib": ["es6"],                                   
+    "allowJs": true,
+    "outDir": "./build",                              
+    "rootDir": "./src",
+    "removeComments": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,                           
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@models/*": ["src/modules/cars/models/*"],
+      "@repositories/*": ["src/modules/cars/repositories/*"],
+      "@useCases/*": ["src/modules/cars/useCases/*"],
+      "@routes/*": ["src/routes/*"]
+    }  
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
