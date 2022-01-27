@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import { Specification } from "@models/Specification";
+import { Specification } from "src/modules/cars/entities/Specification";
 
 import {
   ISpecificationRepository,

@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import { Category } from "src/modules/cars/models/Category";
+import { Category } from "src/modules/cars/entities/Category";
 
 import {
   ICategoriesRepository,
