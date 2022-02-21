@@ -19,7 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@models/*": ["src/modules/cars/entities/*"],
+      "@entities/*": ["src/modules/cars/entities/*"],
       "@repositories/*": ["src/modules/cars/repositories/*"],
       "@useCases/*": ["src/modules/cars/useCases/*"],
       "@routes/*": ["src/routes/*"]

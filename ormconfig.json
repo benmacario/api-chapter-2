@@ -4,9 +4,10 @@
     "host": "localhost",
     "username": "docker",
     "password": "ignite",
-    "database": "db_chapter_2",
+    "database": "db_chapter_2", 
     "migrations": ["./src/database/migrations/*.ts"],
+    "entities": ["./src/modules/**/entities/*.ts"],
     "cli": {
-        "migrationsDir": "./src/database/migrations"
+      "migrationsDir": "./src/database/migrations"
     }
-}
+  }

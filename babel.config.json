@@ -11,12 +11,15 @@
       "@babel/preset-typescript"
     ],
     "plugins": [
-      ["module-resolver", {
-        "alias": {
-          "@exemple": "./src/exemple",
-          "@modules": "./src/modules"
+      "babel-plugin-transform-typescript-metadata",
+      [
+        "module-resolver", {
+          "alias": {
+            "@exemple": "./src/exemple",
+            "@modules": "./src/modules"
+          }
         }
-      }]
+      ]
     ],
     "ignore": [
       "**/*.spec.ts"
