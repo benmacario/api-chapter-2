@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-import { Category } from "@entities/Category";
+import { Category } from "@modules/cars/entities/Category";
 import { getRepository, Repository } from "typeorm";
 
 import {

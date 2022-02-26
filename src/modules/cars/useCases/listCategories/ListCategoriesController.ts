@@ -1,4 +1,4 @@
-import { ListCategoriesUseCase } from "@useCases/listCategories/ListCategoriesUseCase";
+import { ListCategoriesUseCase } from "@modules/cars/useCases/listCategories/ListCategoriesUseCase";
 import { Request, Response } from "express";
 import { container } from "tsyringe";
 

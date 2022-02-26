@@ -1,4 +1,4 @@
-import { CreateCategoryUseCases } from "@useCases/createCategory/CreateCategoryUseCase";
+import { CreateCategoryUseCases } from "@modules/cars/useCases/createCategory/CreateCategoryUseCase";
 import { Request, Response } from "express";
 import { container } from "tsyringe";
 

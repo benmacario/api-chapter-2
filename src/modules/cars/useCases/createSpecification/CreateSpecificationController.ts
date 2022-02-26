@@ -1,4 +1,4 @@
-import { CreateSpecificationUseCase } from "@useCases/createSpecification/CreateSpecificationUseCase";
+import { CreateSpecificationUseCase } from "@modules/cars/useCases/createSpecification/CreateSpecificationUseCase";
 import { Request, Response } from "express";
 import { container } from "tsyringe";
 

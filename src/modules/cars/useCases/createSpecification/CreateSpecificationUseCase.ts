@@ -1,4 +1,4 @@
-import { ISpecificationRepository } from "@repositories/ISpecificationRepository";
+import { ISpecificationRepository } from "@modules/cars/repositories/ISpecificationRepository";
 import { inject, injectable } from "tsyringe";
 
 interface IRequest {

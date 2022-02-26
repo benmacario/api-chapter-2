@@ -19,9 +19,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@entities/*": ["src/modules/cars/entities/*"],
-      "@repositories/*": ["src/modules/cars/repositories/*"],
-      "@useCases/*": ["src/modules/cars/useCases/*"],
+      "@database/*": ["src/database/*"],
+      "@modules/*": ["src/modules/*"],
+      "@shared/*": ["src/shared/*"],
       "@routes/*": ["src/routes/*"]
     }  
   },
