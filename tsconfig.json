@@ -22,7 +22,8 @@
       "@database/*": ["src/database/*"],
       "@modules/*": ["src/modules/*"],
       "@shared/*": ["src/shared/*"],
-      "@routes/*": ["src/routes/*"]
+      "@routes/*": ["src/routes/*"],
+      "@errors/*": ["src/errors/*"]
     }  
   },
   "include": [
