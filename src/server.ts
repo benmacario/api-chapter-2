@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import "reflect-metadata";
 import "./database";
 import "./shared/container";
@@ -15,14 +16,14 @@ app.use(express.json());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 app.use(router);
 app.use(
-  (err: Error, request: Request, response: Response, next: NextFunction) => {
+  (err: Error, _request: Request, response: Response, _next: NextFunction) => {
     if (err instanceof AppError) {
-      return response.status(err.statusCode).json({
+      return response.status(err.statusCode).send({
         message: err.message,
       });
     }
 
-    return response.status(500).json({
+    return response.status(500).send({
       status: "error",
       message: `Internal server error - ${err.message}`,
     });

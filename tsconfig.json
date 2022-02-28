@@ -23,7 +23,10 @@
       "@modules/*": ["src/modules/*"],
       "@shared/*": ["src/shared/*"],
       "@routes/*": ["src/routes/*"],
-      "@errors/*": ["src/errors/*"]
+      "@errors/*": ["src/errors/*"],
+      "@config/*": ["src/config/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@utils/*": ["src/utils/*"]
     }  
   },
   "include": [
