@@ -1,6 +1,7 @@
 /* eslint-disable no-use-before-define */
-import { Specification } from "@modules/cars/entities/Specification";
 import { getRepository, Repository } from "typeorm";
+
+import { Specification } from "@modules/cars/entities/Specification";
 
 import {
   ISpecificationRepository,
