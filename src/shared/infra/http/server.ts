@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import "reflect-metadata";
-import "./database";
+import "@shared/infra/typeorm";
 import "@shared/container";
 import "express-async-errors";
 
@@ -8,9 +8,9 @@ import express, { NextFunction, Request, Response } from "express";
 import swaggerUi from "swagger-ui-express";
 
 import { AppError } from "@errors/AppError";
+import { router } from "@shared/infra/http/routes";
 
-import { router } from "./routes";
-import swaggerFile from "./swagger.json";
+import swaggerFile from "../../../swagger.json";
 
 const app = express();
 app.use(express.json());

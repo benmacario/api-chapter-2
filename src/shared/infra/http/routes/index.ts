@@ -1,8 +1,8 @@
 import { Router } from "express";
 
-import { categoriesRoutes } from "@routes/categories.routes";
-import { specificationRoutes } from "@routes/specifications.routes";
-import { usersRoutes } from "@routes/users.routes";
+import { categoriesRoutes } from "@shared/infra/http/routes/categories.routes";
+import { specificationRoutes } from "@shared/infra/http/routes/specifications.routes";
+import { usersRoutes } from "@shared/infra/http/routes/users.routes";
 
 import { authenticateRoutes } from "./authenticate.routes";
 
