@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "docker": "docker-compose up",
     "restart:bcrypt": "npm uninstall bcrypt && npm install bcrypt",
     "dev": "npm run restart:bcrypt && ts-node-dev --inspect -r tsconfig-paths/register --transpile-only --respawn --ignore-watch node_modules --no-notify src/shared/infra/http/server.ts",
     "build": "babel src --extensions \".js,.ts\" --out-dir build --copy-files --no-copy-ignored",
